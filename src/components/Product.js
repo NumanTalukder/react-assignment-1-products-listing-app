@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
 
-const Product = () => {
+const Product = ({Product}) => {
   return (
       <article className="product">
       <img src="" alt="" />
